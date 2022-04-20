@@ -1,0 +1,28 @@
+window:
+  padding:
+    x: 0
+    y: 0
+  opacity: 1
+  decorations: full
+  title: terminal
+  gtk_theme_variant: None
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  save_to_clipboard: true
+
+scrolling:
+  history: 10000
+
+font:
+  normal:
+    family: "monospace"
+  size: 11
+
+colors:
+  primary:
+    background: '#2e3440'
+    foreground: '#eceff4'
+  cursor:
+   text: '#eceff4'
+   cursor: '#d8dee9'
